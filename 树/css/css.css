@@ -1,0 +1,21 @@
+@charset "utf-8";
+body,html{ height: 100%;}
+body{ padding:0px; margin:0px; font-size:12px; color:#333; font-family:'微软雅黑';  background: #f7f7f7;}
+*{ padding:0; margin:0;}
+img { border-style: none; margin:0; padding:0;}
+.show{display: block;}
+.hide{display: none;}
+.f-body{ position: absolute; left: 5px; right: 0px; top: 107px; bottom: 5px; background: #f5f5f5; overflow: auto; z-index: 1000}
+.f-item{ width: 100%; height: 100%;}
+.f-frame{ width: 100%; height: 100%; border: 0; outline: 0;}
+/*树*/
+.f-treeListWrapper{ width: auto; height: auto;position: relative;} 
+.f-treeList{ min-width: 100px; min-height: 20px; position: relative; padding-left: 16px;}
+.f-treeList-line{ position: absolute; width: 1px; top: 20px; bottom: 0px; left: 22px; background:url(../images/tree-line.png); background-repeat:repeat-y;}
+.f-treeList-lineShu{ position: absolute; width: 1px; top: 0px; bottom: 0px; left: 21px; background:url(../images/tree-line.png); background-repeat:repeat-y;}
+.f-treeList-lineShuEnd{ position: absolute; width: 1px; top: 0px; bottom: 10px; left: 21px; background:url(../images/tree-line.png); background-repeat:repeat-y;}
+.f-treeList-lineEnd{ float:left; width: 8px; height: 20px; background:url(../images/tree-lineEnd.png) no-repeat; margin-left: 7px;}
+.f-treeList-top{ width: 100%; height: 20px;position: relative;}
+.f-treeList-old{ float: left; padding-top: 5px; width:10px; height:10px; cursor: pointer; margin-right: 5px;}
+.f-iconJia{ display: block; width: 11px; height: 11px; background: url(../images/tree-jia.png) no-repeat; background-color:#fff ;}
+.f-iconJian{ display: block; width: 11px; height: 11px; background: url(../images/tree-jian.png) no-repeat; background-color:#fff ;}

@@ -69,6 +69,6 @@ function makeTree()
 		document.getElementsByClassName("f-tree").item(0).innerHTML="";//设置容器内容为空
 		config.tree({type:0,wrapper:'.f-tree',data:treeData});//生成树节点
 	}
-    //console.log(array);
-    //console.log(arr1);
+    console.log(array);
+    console.log(arr1);
 }

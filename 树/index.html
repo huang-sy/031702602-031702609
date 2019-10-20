@@ -9,11 +9,26 @@
 <script type="text/javascript" src="css/config.js" ></script>
 <script type="text/javascript" src="js/main.js" ></script>
 <link rel="stylesheet" href="css/css.css" />
+
+<style>
+    body
+    {
+        background-image:url(images/3.jpg);
+        
+    }
+    .button2 
+    {
+        background-color: #87CEFA;/* Blue, #FFD700 background-color:#b0c4de;*/
+    } 
+</style>
+
 </head>
 
 <body>
-<textarea style="height:300px; width:300px;" id="txt1"></textarea>
-<div style="height:30px"><button onClick="makeTree()">生成树结构</button></div>
+<textarea style="height:300px; width:300px;background-image:url(images/3.jpg);border-color:#191970;" id="txt1" placeholder="请在这里输入文字"></textarea>
+
+<div style="height:30px"><button class="button button2" onClick="makeTree()">点击生成树</button></div>
+
 <div class="f-tree"></div>
 </body>
 

@@ -13,12 +13,11 @@ images：存放一些图片文件<br>
   
 js：存放主函数<br>
   * main.js<br>
-  * index.html<br>
+  
+index.html：html文件<br>
   
 使用说明
 ========
   * 进入项目界面
   * 点击文件夹———树
-  * 点击文件夹———js
-  * 点击html文件———index.html
-  * 下载“树”文件，打开树/js/index.html,可在谷歌浏览器上查看网页信息
+  * 点击html文件———index.html，可在谷歌浏览器上查看
